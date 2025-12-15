@@ -88,6 +88,9 @@ Production-ready RAG implementations using open-source vector databases and fram
 
 | Pattern                         | Stack                      | Folder                                                                     |
 |---------------------------------|----------------------------|----------------------------------------------------------------------------
+| **Local RAG with Llama 3 + Qdrant** | Llama 3, Qdrant, LangChain | [`enterprise_rag_patterns/local_rag_llama_qdrant`](./enterprise_rag_patterns/local_rag_llama_qdrant) |
+| **Hybrid Search RAG** | Weaviate/Qdrant, Haystack | [`enterprise_rag_patterns/hybrid_search_rag`](./enterprise_rag_patterns/hybrid_search_rag) |
+| **RAG-as-a-Service** | FastAPI, Docker, LlamaIndex | [`enterprise_rag_patterns/rag_as_a_service`](./enterprise_rag_patterns/rag_as_a_service) |
 
     ---
 
@@ -97,6 +100,9 @@ Real-world AI agent patterns for enterprise workflows—all built with open-sour
 
 | Agent                        | Use Case                                           | Stack                 | Folder                                                                 |
 |------------------------------|----------------------------------------------------|-----------------------|------------------------------------------------------------------------|
+| **System Architecture Agent** | Generate infrastructure diagrams & recommendations | LangChain, Claude | [`enterprise_ai_agents/system_architect_agent`](./enterprise_ai_agents/system_architect_agent) |
+| **Incident Triage Agent** | Analyze logs and alerts, suggest remediation | Haystack, vLLM | [`enterprise_ai_agents/incident_triage_agent`](./enterprise_ai_agents/incident_triage_agent) |
+| **Requirements Drafting Agent** | Convert user stories into formal PRDs/BRDs | LangChain, LlamaIndex | [`enterprise_ai_agents/requirements_agent`](./enterprise_ai_agents/requirements_agent) |
 
     ---
     
